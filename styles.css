@@ -31,16 +31,6 @@
   background: lightgreen;
   cursor: default;
 }
-#container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-}
-
-#downloadBtn {
-  margin-top: 20px;
-}
 
 
 
