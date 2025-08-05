@@ -28,7 +28,7 @@ html, body {
 }
 h1 {
   margin-top: 120px;  /* Pushes title down */
-  margin-bottom: 10px;
+ /* margin-bottom: 10px;*/
   font-size: 2em;
 }
 
@@ -70,6 +70,7 @@ h1 {
 #downloadBtn:hover {
   background-color: #0056b3;
 }
+
 
 
 
