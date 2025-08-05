@@ -5,7 +5,7 @@
   gap: 10px;
   justify-content: center;
   align-content: center;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 1000px auto;
   width: max-content;
 }
 
@@ -41,6 +41,7 @@
 #downloadBtn {
   margin-top: 20px;
 }
+
 
 
 
