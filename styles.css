@@ -26,6 +26,11 @@ html, body {
   gap: 10px;
   margin: 20px 0;
 }
+h1 {
+  margin-top: 40px;  /* Pushes title down */
+  margin-bottom: 10px;
+  font-size: 2em;
+}
 
 /* Style for each card */
 .card {
@@ -65,3 +70,4 @@ html, body {
 #downloadBtn:hover {
   background-color: #0056b3;
 }
+
