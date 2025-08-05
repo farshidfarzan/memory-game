@@ -13,14 +13,12 @@
 .card {
   width: 100px;
   height: 100px;
-  background: gray;
-  text-align: center;
-  font-size: 2em;
-  line-height: 100px;
+  background-color: gray;
   cursor: pointer;
-  user-select: none;
-  border-radius: 8px;
-  transition: all 0.2s ease;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
 }
 
 .card.flipped {
@@ -31,6 +29,7 @@
   background: lightgreen;
   cursor: default;
 }
+
 
 
 
