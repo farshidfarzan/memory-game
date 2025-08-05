@@ -5,7 +5,7 @@
   gap: 10px;
   justify-content: center;
   align-content: center;
-  margin: 100px auto 200px auto;
+  margin: 100px auto 300px auto;
   width: max-content;
 }
 
@@ -29,6 +29,7 @@
   background: lightgreen;
   cursor: default;
 }
+
 
 
 
