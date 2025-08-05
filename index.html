@@ -3,38 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>2×2 Memory Game</title>
+  <title>4×4 Memory Game</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>2×2 Memory Game</h1>
-  <div id="game-board">  
-<div id="game-board">
-<div id="game-board">
-  <div class="card" data-match="1" data-image="img1.png"></div>
-  <div class="card" data-match="1" data-image="img2.png"></div>
-  <div class="card" data-match="2" data-image="img3.png"></div>
-  <div class="card" data-match="2" data-image="img4.png"></div>
-  <div class="card" data-match="3" data-image="img5.png"></div>
-  <div class="card" data-match="3" data-image="img6.png"></div>
-  <div class="card" data-match="4" data-image="img7.png"></div>
-  <div class="card" data-match="4" data-image="img8.png"></div>
-  <div class="card" data-match="5" data-image="img9.png"></div>
-  <div class="card" data-match="5" data-image="img10.png"></div>
-  <div class="card" data-match="6" data-image="img11.png"></div>
-  <div class="card" data-match="6" data-image="img12.png"></div>
-  <div class="card" data-match="7" data-image="img13.png"></div>
-  <div class="card" data-match="7" data-image="img14.png"></div>
-  <div class="card" data-match="8" data-image="img15.png"></div>
-  <div class="card" data-match="8" data-image="img16.png"></div>
-</div>
 
-</div>
+  <!-- 🔽 This wrapper centers all content -->
+  <div id="container">
+    <h1>4×4 Memory Game</h1>
 
+    <div id="game-board">
+      <!-- 16 cards go here -->
+      <div class="card" data-image="img1.png" data-match="1" id="card1"></div>
+      <div class="card" data-image="img2.png" data-match="1" id="card2"></div>
+      <div class="card" data-image="img3.png" data-match="2" id="card3"></div>
+      <div class="card" data-image="img4.png" data-match="2" id="card4"></div>
+      <div class="card" data-image="img5.png" data-match="3" id="card5"></div>
+      <div class="card" data-image="img6.png" data-match="3" id="card6"></div>
+      <div class="card" data-image="img7.png" data-match="4" id="card7"></div>
+      <div class="card" data-image="img8.png" data-match="4" id="card8"></div>
+      <div class="card" data-image="img9.png" data-match="5" id="card9"></div>
+      <div class="card" data-image="img10.png" data-match="5" id="card10"></div>
+      <div class="card" data-image="img11.png" data-match="6" id="card11"></div>
+      <div class="card" data-image="img12.png" data-match="6" id="card12"></div>
+      <div class="card" data-image="img13.png" data-match="7" id="card13"></div>
+      <div class="card" data-image="img14.png" data-match="7" id="card14"></div>
+      <div class="card" data-image="img15.png" data-match="8" id="card15"></div>
+      <div class="card" data-image="img16.png" data-match="8" id="card16"></div>
+    </div>
+
+    <button id="downloadBtn">Download Log</button>
   </div>
-  <button id="download-log">Download Log</button>
+
   <script src="script.js"></script>
 </body>
 </html>
-
-
