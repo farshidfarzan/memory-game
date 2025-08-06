@@ -69,16 +69,19 @@ document.getElementById("downloadBtn").addEventListener("click", () => {
     return;
   }
 
-  const blob = new Blob([gameLog.join("\n")], { type: "text/plain" });
+  const logHeader = `Participant UID: ${UID}\nGame Log:\n`;
+  const blob = new Blob([logHeader + gameLog.join("\n")], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
 
   const a = document.createElement("a");
   a.href = url;
-  a.download = "memory_game_log.txt";
+  a.download = `memory_game_${UID}.txt`;
   document.body.appendChild(a);
   a.click();
 
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 });
+
+
 
