@@ -1,3 +1,14 @@
+//  Generate a random 5-digit UID
+const UID = Math.floor(10000 + Math.random() * 90000);
+
+// Show UID on the page
+document.addEventListener("DOMContentLoaded", () => {
+  const uidDisplay = document.getElementById("uid-display");
+  if (uidDisplay) {
+    uidDisplay.textContent = `Your UID: ${UID}`;
+  }
+});
+
 const cards = document.querySelectorAll('.card');
 let flippedCards = [];
 let matchedPairs = 0;
@@ -70,3 +81,4 @@ document.getElementById("downloadBtn").addEventListener("click", () => {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 });
+
